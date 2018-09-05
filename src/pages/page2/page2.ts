@@ -14,8 +14,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'page2.html',
 })
 export class Page2Page {
-
+  userInfo: any;
+  parameter1: string;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  this.userInfo = navParams.get('data');
+  this.parameter1 = navParams.get('name');
+  console.log(this.navParams.get('name')); 
   }
 
   ionViewDidLoad() {

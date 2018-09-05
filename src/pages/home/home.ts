@@ -13,10 +13,10 @@ export class HomePage {
   }
   gotoPage2(){ 
   this.navCtrl.push(Page2Page, {
-  name: "sundaravel",
-  age: "24",
-  country: "India",
-  profilePic: "https://i1.wp.com/phonegappro.com/wp-content/uploads/2015/02/sundaravel.png"
+   name : "sundaravel",
+   age : "24",
+   country : "India",
+   profilePic : "https://i1.wp.com/phonegappro.com/wp-content/uploads/2015/02/sundaravel.png"
   });
   }
  
