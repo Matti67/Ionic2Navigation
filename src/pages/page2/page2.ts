@@ -10,7 +10,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-page2',
+  selector: 'page2',
   templateUrl: 'page2.html',
 })
 export class Page2Page {
