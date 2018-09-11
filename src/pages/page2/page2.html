@@ -14,5 +14,22 @@
 
 
 <ion-content padding>
-<label>Data passed: {{parameter1}}</label>
+<p>
+  <label>Data passed "Name": {{parameter1}}</label>
+</p>
+<p>
+<label>Data passed "Age": {{parameter2}}</label>
+</p>
+<p>
+<label>Data passed "Country": {{param1}}</label>
+</p>
+<p>
+<label>Data passed "profilePic": {{param2}}</label>
+<a target="_blank" href="{{param2}}">Link to profilePic</a>
+</p>
+<ion-item>
+    <ion-label floating>URL</ion-label>
+    <ion-input type="url" [(ngModel)]="url"></ion-input>
+</ion-item>
+    <button ion-button block clear (click)="openWebpage(url)">Open Webpage</button>
 </ion-content>
